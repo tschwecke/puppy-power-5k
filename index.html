@@ -17,6 +17,14 @@
 				padding: 3rem;
 			}
 			
+			.header {
+				display: flex;
+				flex-direction: column;
+				height: 100vh;
+    			justify-content: space-around;
+				min-height: 600px;
+			}
+			
 			.header-logo {
 				width: 500px;
 			}
@@ -63,13 +71,13 @@
 				font-size: 1.8rem;
 				padding: 1rem;
 				position: absolute;
-				top: -3rem;
-				left: -3rem;
+				top: -2rem;
+				left: -2rem;
 			}
 			
 			.details-box {
 				background-color: HSL(204, 75%, 90%);
-				margin-top: 5rem;
+				margin-top: 10rem;
 				padding: 2rem;
 				position: relative;
 				width: 57rem;
@@ -79,21 +87,34 @@
 				float: right;
 			}
 
-			.details-when {
-				float: left;
-				width: 40rem;
-			}
-			
-			.details-where {
-				float: right;
-				width: 40rem;
-			}
-			
 			.details-what-header {
 				left: auto;
 				right: -3rem;				
 			}
 			
+			.details-when {
+				float: right;
+				width: 30rem;
+			}
+			
+			.details-when-header {
+				left: auto;
+				right: -3rem;				
+			}
+			
+			.details-where {
+				float: left;
+				margin-top: 2rem;
+				width: 30rem;
+			}
+
+			.details-how-header {
+				color: hsl(203, 32%, 40%);
+				text-align: center;
+				font-size: 5rem;
+				margin-top: 5rem;
+				margin-bottom: 3rem;
+			}
 			
 			.details-how-description-register-button {
 				background-color: hsl(121, 29%, 64%);
@@ -133,7 +154,7 @@
 				Join us for a spectacular time at Butterfield Park in Castle Rock, Colorado, where you can <br/>walk or run 3.1 miles at the first ever <strong>Puppy Power 5k!</strong>
 			</div>
 			<div class="header-register">
-				<a class="header-register-link" href="#">Register now!</a>
+				<a class="header-register-link" href="https://puppypower5k.webconnex.com/2015">Register now!</a>
 				<div class="header-register-price">Adults $25   -   Kids $15</div>
 			</div>
 		</div>
@@ -142,7 +163,7 @@
 			<div class="details-why details-box">
 				<div class="details-why-header details-header">Why?</div>
 				<div class="details-why-description">
-					We are trying to spread the word about good organizations (such as the <a href="http://www.humanesociety.org/">Humane Society of the United States</a> and the <a href="http://www.ddfl.org/">Denver Dumb Friends League</a>) and bad happenings (such as <a href="#">puppy mills</a>).
+					We are trying to spread the word about good organizations (such as the <a href="http://www.humanesociety.org/">Humane Society of the United States</a> and the <a href="http://www.ddfl.org/">Denver Dumb Friends League</a>) and bad happenings (such as <a href="http://www.humanesociety.org/issues/puppy_mills/">puppy mills</a>).
 				</div>
 			</div>
 			<div class="clear"></div>
@@ -164,13 +185,14 @@
 					We are a group of 5th graders determined to do what we can to help animals in need. This fun run seemed like a great way to raise awareness, raise funds for our favorite cause, and have a great time!
 				</div>
 			</div>
-			<div class="clear"></div>
+			
 			<div class="details-when details-box">
 				<div class="details-when-header details-header">When?</div>
 				<div class="details-when-description">
 					The fun run will be held <strong>Sunday, <br/>August 16th</strong>, 2015, at <strong>9:30 am</strong>.
 				</div>
 			</div>
+			<div class="clear"></div>
 			
 			<div class="details-where details-box">
 				<div class="details-where-header details-header">Where?</div>
@@ -183,7 +205,7 @@
 			<div class="details-how">
 				<div class="details-how-header">How?</div>
 				<div class="details-how-description">
-					<a class="details-how-description-register-button" href="#">
+					<a class="details-how-description-register-button" href="https://puppypower5k.webconnex.com/2015">
 						Register Today!
 					</a>
 					<div class="details-how-description-register-price">
